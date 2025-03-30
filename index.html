@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="title"><img src="./assets/icons/dashboard.svg" alt="dashboard" class="icon dashboard-icon">Dashboard</div>
+      <div class="nav">
+        <div><a href="#"><img src="./assets/icons/home.svg" alt="home" class="icon home-icon">Home</a></div>
+        <div><a href="#"><img src="./assets/icons/profile.svg" alt="profile" class="icon profile-icon">Profile</a></div>
+        <div><a href="#"><img src="./assets/icons/messages.svg" alt="messages" class="icon messages-icon">Messages</a></div>
+        <div><a href="#"><a href="#"><img src="./assets/icons/history.svg" alt="history" class="icon history-icon">History</a></div>
+        <div><a href="#"><a href="#"><img src="./assets/icons/tasks.svg" alt="tasks" class="icon tasks-icon">Tasks</a></div>
+        <div><a href="#"><a href="#"><img src="./assets/icons/communities.svg" alt="communities" class="icon communities-icon">Communities</a></div>
+      </div>
+      <div class="utilities">
+        <div><a href="#"><img src="./assets/icons/settings.svg" alt="setings" class="icon settings-icon">Settings</a></div>
+        <div><a href="#"><img src="./assets/icons/support.svg" alt="support" class="icon support-icon">Support</a></div>
+        <div><a href="#"><img src="./assets/icons/privacy.svg" alt="privacy" class="icon privacy-icon">Privacy</a></div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="search-bar">
+        <img src="./assets/icons/search.svg" alt="search" class="icon search-icon">
+        <input type="text" name="search" />
+      </div>
+      <div class="profile-section-sm">
+        <img src="./assets/icons/notification.svg" alt="notification" class="icon notification-icon">
+        <div class="profile-pic profile-pic-sm"></div>
+        <span class="username-sm">Morgan Oakley</span>
+      </div>
+
+      <div class="profile-section-lg">
+        <div class="profile-pic profile-pic-lg"></div>
+        <div class="username username-lg">
+          <span class="greeting">Hi there,</span>
+          <span class="name">Morgan Oakley (@morgan)</span>
+        </div>
+      </div>
+
+      <div class="media-controls">
+        <button class="btn new-btn">New</button>
+        <button class="btn upload-btn">Upload</button>
+        <button class="btn share-btn">Share</button>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="project-container">
+        <h1 class="heading">Your Projects</h1>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-title">Super Cool Project</div>
+            <div class="project-desc">
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">Less Cool Project</div>
+            <div class="project-desc">
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">Impossible App</div>
+            <div class="project-desc">
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">Easy Peasy App</div>
+            <div class="project-desc">
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">Ad Blocker</div>
+            <div class="project-desc">
+              Quisque eget rutrum nisi. Nam augue justo, cursus vitae metus vel,
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-title">Money Maker</div>
+            <div class="project-desc">
+              Praesent convallis, libero quis congue elementum, nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit amet ex.
+              Pellentesque mollis nec sem vel aliquam.
+            </div>
+            <div class="options">
+              <img src="./assets/icons/star-plus.svg" alt="star-plus" class="icon star-plus-icon">
+              <img src="./assets/icons/eye-plus.svg" alt="eye-plus" class="icon eye-plus-icon">
+              <img src="./assets/icons/source-fork.svg" alt="source-fork" class="icon source-fork-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcement-container">
+        <h1 class="heading">Announcements</h1>
+        <div class="announcements">
+          <div class="announcement">
+            <div class="announcement-heading">Site Maintenance</div>
+            <div class="announcement-info">
+              Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+              Donec hendrerit sodales congue...
+            </div>
+          </div>
+
+          <div class="announcement">
+            <div class="announcement-heading">Community Share Day</div>
+            <div class="announcement-info">
+              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+              dictum accumsan porttitor...
+            </div>
+          </div>
+
+          <div class="announcement">
+            <div class="announcement-heading">Updated Privacy Policy</div>
+            <div class="announcement-info">
+              Phasellus efficitur nisi eget elit consectetur, eget condimentum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending-container">
+        <h1 class="heading">Trending</h1>
+        <div class="trending-projects">
+          <div class="trending-project">
+            <div class="profile-pic profile-pic-sm"></div>
+            <div class="tp-username">@tegan</div>
+            <div class="project">World Peace Builder</div>
+          </div>
+
+          <div class="trending-project">
+            <div class="profile-pic profile-pic-sm"></div>
+            <div class="tp-username">@tegan</div>
+            <div class="project">World Peace Builder</div>
+          </div>
+
+          <div class="trending-project">
+            <div class="profile-pic profile-pic-sm"></div>
+            <div class="tp-username">@kendall</div>
+            <div class="project">Life Changing App</div>
+          </div>
+
+          <div class="trending-project">
+            <div class="profile-pic profile-pic-sm"></div>
+            <div class="tp-username">@alex</div>
+            <div class="project">No Traffic Maker</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
